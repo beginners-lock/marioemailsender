@@ -1,0 +1,19 @@
+{
+  "name": "marioemailsender",
+  "version": "1.0.0",
+  "description": "Just a simple nodejs backend that can send email",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node index.js"
+  },
+  "author": "Chuwku Rophi (aka beginners_lock)",
+  "license": "ISC",
+  "dependencies": {
+    "@emailjs/nodejs": "^5.0.2",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}
